@@ -12,7 +12,7 @@ func hello(w http.ResponseWriter, req *http.Request) {
 }
 
 func headers(w http.ResponseWriter, r *http.Request) {
-
+// info: https://www.reddit.com/r/golang/comments/usye7v/comment/i96jtx7/?utm_source=share&utm_medium=web2x&context=3
     http.ServeFile(w, r, "./files/index.html")
 }
 
