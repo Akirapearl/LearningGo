@@ -19,7 +19,7 @@ func headers(w http.ResponseWriter, r *http.Request) {
 func main() {
 
     http.HandleFunc("/hello", hello)
-    //http.HandleFunc("/headers", headers) -- Calls
+    //http.HandleFunc("/headers", headers) -- Calls header function
     http.Handle("/", http.FileServer(http.Dir("./files")))
 
     http.ListenAndServe(":8090", nil)
