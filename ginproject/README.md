@@ -12,7 +12,7 @@ add an import sentence inside the main.go file with "github.com/gin-gonic/gin" -
 go get github.com/gin-gonic/gin  --> Actually installs the framework at the current directory and generates a go.sum file
 
 
-structure of the file
+### Structure of the file
 
 func hello --> Returns a basic hello world message when the request is done and received correctly.
 
