@@ -4,6 +4,7 @@
 * Basic knowledge of its usage
 
 [create main.go file and add "package main" at the first line]
+
 go mod init _name of the project_
 add an import sentence inside the main.go file with "github.com/gin-gonic/gin" --> Creates a reference to the framework
 go get github.com/gin-gonic/gin  --> Actually installs the framework at the current directory and generates a go.sum file
