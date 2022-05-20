@@ -1,4 +1,4 @@
-# Needed steps to use & understand this specific 
+# Needed steps to use & understand this specific exercise 
 
 * Golang installed on local machine
 * Basic knowledge of its usage
