@@ -1,5 +1,9 @@
 # LearningGo
 
-###### This document is intended to contain all my projects during my first steps of learning Golang, trying to make all of them reusable and begginer friendly so anyone can understand how each of them works without much deep knowledge.
+__Disclaimer__
+Old code (dated 2022) has been separated.
+
+Further down there will be a disclosure of the contents for this repo, as I shall keep re-learning go on the current year (2024) as part of my 100 days of code [blog](https://akirapearl.github.io/jekyll_blog/).
+
 ![Golang logo](https://github.com/Akirapearl/LearningGo/blob/main/Golang.png)
 
