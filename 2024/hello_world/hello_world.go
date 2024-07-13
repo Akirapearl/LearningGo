@@ -140,9 +140,14 @@ func main() {
 	myStruct := MyStruct{"Test", 25}
 	fmt.Println(myStruct)
 
+	fmt.Println(testnumber(5, 5))
 }
 
 func myFunction() string {
 	return "My function"
 	//fmt.Println("this is my function")
+}
+
+func testnumber(x, y int) int {
+	return x + y
 }
