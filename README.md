@@ -10,9 +10,12 @@ Re-learning GO on the current year (2024) as part of my 100 days of code [blog](
 - 2022
 	* Two web servers, one with the standard library, using net/http, the ther one using Gin's framework.
 - 2024
+
 	1- /exercises
+
 		* Learning and basics review exercises, oriented just for the first 10 days of my blog.
 	2- /hello_world
+
 		* Self explanatory, yet expanded following [MoureDev's video](https://youtu.be/AGiayASyp2Q?si=FvMWRoiSs-Z_FFlK).
 
 	3- /loops_
