@@ -16,10 +16,13 @@ Re-learning GO on the current year (2024) as part of my 100 days of code [blog](
 		* Learning and basics review exercises, oriented just for the first 10 days of my blog.
 	2- /hello_world
 
-		* Self explanatory, yet expanded following [MoureDev's video](https://youtu.be/AGiayASyp2Q?si=FvMWRoiSs-Z_FFlK).
+		* Self explanatory, yet expanded following MoureDev's video*
 
 	3- /loops_
 		* Directory dedicated to a single file where I can rumble around non-working code and try to fix it in an isolated way.
+
+---
+[MoureDev's video](https://youtu.be/AGiayASyp2Q?si=Yg_tUZano1KIp5ab)
 
 
 ![Golang logo](https://github.com/Akirapearl/LearningGo/blob/main/Golang.png)
