@@ -19,7 +19,7 @@ Re-learning GO on the current year (2024) as part of my 100 days of code [blog](
 		* Self explanatory, yet expanded following MoureDev's video*
 
 	3- /loops
-_
+
 		* Directory dedicated to a single file where I can rumble around non-working code and try to fix it in an isolated way.
 
 ---
