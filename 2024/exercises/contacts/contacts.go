@@ -13,7 +13,6 @@ import (
        Use a map to store the contacts, where the key is the contact's name
        and the value is the phone number.
 
-	STATUS: ONGOING
 */
 
 func main() {
