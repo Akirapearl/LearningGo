@@ -136,6 +136,14 @@ func main() {
 	// interfaces
 	// pending to understand
 
+	// pointers
+	// store memory locations instead of values
+	// var p *int32 //nil
+	// var ir int32 // 0
+	// & and *
+	x := 7
+	fmt.Println(&x) // where it is stored
+
 }
 
 //	================
