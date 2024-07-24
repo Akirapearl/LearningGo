@@ -132,17 +132,36 @@ func main() {
 	var myEngine gasEngine = gasEngine{25, 15} // "Class" is created/instanceated
 	fmt.Println(myEngine.mpg, myEngine.litres)
 	fmt.Printf("Total miles: %v", myEngine.milesleft()) //Calling method/"class"
-
+	fmt.Printf("\n")
 	// interfaces
 	// pending to understand
 
-	// pointers
+	// Pointers
+	// Not following the same video:
+	// https://youtu.be/a4HcEsJ1hIE?si=yoZCeViZJ6dnF9rt
+
 	// store memory locations instead of values
 	// var p *int32 //nil
 	// var ir int32 // 0
 	// & and *
 	x := 7
-	fmt.Println(&x) // where it is stored
+	//fmt.Println(&x) // where it is stored
+	y := &x // "y is equal to the pointer of x"
+
+	fmt.Println("Print pointers", x, y)
+
+	*y = 8 //dereference - takes pointer value, access the value of the memory possition
+	fmt.Println("Made change")
+	fmt.Println(y, x)
+
+	// change pointer memory slot "where the pointer is pointing"
+
+	toChange := "hello"
+	fmt.Println(toChange)
+	// function takes the pointer
+	changeValue(&toChange)
+	// main asks for reference (content) Hello turns into changed
+	fmt.Println(toChange)
 
 }
 
@@ -180,4 +199,10 @@ type gasEngine struct {
 func (e gasEngine) milesleft() uint8 {
 	// (e gasEngine) assigns the function to the type
 	return e.litres * e.mpg
+}
+
+func changeValue(str *string) {
+	//when * indicated as a parameter
+	// means that "i want the point for that variable"
+	*str = "Changed!"
 }
