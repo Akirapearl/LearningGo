@@ -31,13 +31,16 @@ func main() {
 	// Convert the string to a slice of runes to handle multibyte characters
 	runes := []rune(w2)
 
-	// Iterate over the slice of runes using a for loop with indexing
+	// Iterate over the slice of runes using a for loop
 	for i := 0; i < len(runes); i++ {
 		fmt.Printf("%c\n", runes[i])
-		if runes[i] ==  {
+
+		if runes[i] == 'a' || runes[i] == 'e' || runes[i] == 'i' {
+			sum++
+		} else if runes[i] == 'o' || runes[i] == 'u' {
 			sum++
 		}
 	}
 
-	fmt.Println(sum)
+	fmt.Println("Total de vocales: ", sum)
 }
