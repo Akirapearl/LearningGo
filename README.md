@@ -3,27 +3,41 @@
 __Disclaimer__
 Old code (dated 2022) has been separated.
 
-Re-learning GO on the current year (2024) as part of my 100 days of code [blog](https://akirapearl.github.io/jekyll_blog/).
+Re-learning GO on the ongoing year (2024) as part of my 100 days of code [blog](https://akirapearl.github.io/jekyll_blog/).
 
 ### Contents
 
 - 2022
 	* Two web servers, one with the standard library, using net/http, the ther one using Gin's framework.
+
 - 2024
 
 	1- /exercises
 
-		* Learning and basics review exercises, oriented just for the first 10 days of my blog.
+		* Learning and basics review exercises, oriented just for the first 10-20 days/posts of my blog.
+
+		- Fizzbuzz
+		- Arithmetic Calculator
+		- Contacts exercise (using maps)
+		- Codewars originated exercises
+		- JSON parser 
+		- Batch 1 & Batch 2 - General scoped basics, 5 exercises per batch
+		- Advent of Code - Day 1
+
 	2- /hello_world
 
-		* Self explanatory, yet expanded following MoureDev's video*
+		* Detailed document following MoureDev's video (introduction)
 
-	3- /loops
+	3- /go_fast
+
+		* Detailed document following Alex Mux's video (Begginer-intermediate, full coverage of Golang's concepts and basic syntax)
+
+	4- /loops
 
 		* Directory dedicated to a single file where I can rumble around non-working code and try to fix it in an isolated way.
 
 ---
 [MoureDev's video](https://youtu.be/AGiayASyp2Q?si=Yg_tUZano1KIp5ab)
-
+[Alex Mux's video](https://www.youtube.com/watch?v=8uiZC0l4Ajw)
 
 ![Golang logo](https://github.com/Akirapearl/LearningGo/blob/main/Golang.png)
