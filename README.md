@@ -21,7 +21,7 @@ Re-learning GO on the ongoing year (2024) as part of my 100 days of code [blog](
 		- Contacts exercise (using maps)
 		- Codewars originated exercises
 		- JSON parser 
-		- Batch 1 & Batch 2 - General scoped basics, 5 exercises per batch
+		- Batch 1, Batch 2 & Batch 3 - General scoped basics, 5 exercises per batch
 		- Advent of Code - Day 1
 
 	2- /hello_world
@@ -36,6 +36,13 @@ Re-learning GO on the ongoing year (2024) as part of my 100 days of code [blog](
 
 		* Directory dedicated to a single file where I can rumble around non-working code and try to fix it in an isolated way.
 
+	5- /web_learning
+		* Oriented for web development
+
+- gophercises
+	* Exercises made during 2024, from [gophercises site](https://gophercises.com/)
+	/ex1
+		* Quiz game
 ---
 [MoureDev's video](https://youtu.be/AGiayASyp2Q?si=Yg_tUZano1KIp5ab)
 [Alex Mux's video](https://www.youtube.com/watch?v=8uiZC0l4Ajw)
