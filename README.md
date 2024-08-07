@@ -37,11 +37,14 @@ Re-learning GO on the ongoing year (2024) as part of my 100 days of code [blog](
 		* Directory dedicated to a single file where I can rumble around non-working code and try to fix it in an isolated way.
 
 	5- /web_learning
+
 		* Oriented for web development
 
 - gophercises
-	* Exercises made during 2024, from [gophercises site](https://gophercises.com/)
+
+		* Exercises made during 2024, from [gophercises site](https://gophercises.com/)
 	/ex1
+	
 		* Quiz game
 ---
 [MoureDev's video](https://youtu.be/AGiayASyp2Q?si=Yg_tUZano1KIp5ab)
