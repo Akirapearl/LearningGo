@@ -7,10 +7,6 @@ Task: Write a program that reads a CSV file, processes the data, and prints the 
         Use the encoding/csv package to read the file.
         Assume the CSV file contains a list of users with columns Name, Age, and Email.
 
-    Process Data:
-        Create a struct User with Name, Age, and Email fields.
-        Read the data from the CSV file into a slice of User structs.
-
     Print Data:
         Print the details of each user.
 

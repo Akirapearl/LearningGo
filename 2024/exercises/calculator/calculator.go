@@ -37,15 +37,22 @@ func controlf(j int) string {
 
 }
 
+func swap(x, y string) (string, string) {
+	return y, x
+}
+
 func main() {
 
 	// Welcome to my Golang manual basic calculator!
 
-	fmt.Println("Sum ", add(1, 9))
+	fmt.Println("Sum", add(1, 40))
 	fmt.Println("Minus", extract(10, 9))
 	fmt.Println("Multiply", multiply(2, 2))
 	fmt.Println("Divide", divide(40, 2))
 
-	fmt.Println("It is ", controlf(10))
+	fmt.Println("It is", controlf(10))
+
+	a, b := swap("hello", "world")
+	fmt.Println(a, b)
 
 }

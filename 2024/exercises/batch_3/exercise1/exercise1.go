@@ -16,19 +16,9 @@ Task: Write a program that reads a CSV file, processes the data, and prints the 
         Use the encoding/csv package to read the file.
         Assume the CSV file contains a list of users with columns Name, Age, and Email.
 
-    Process Data:
-        Create a struct User with Name, Age, and Email fields.
-        Read the data from the CSV file into a slice of User structs.
-
     Print Data:
         Print the details of each user.
 */
-
-type User struct {
-	Name  string
-	Age   int
-	Email string
-}
 
 func check(err error) {
 	if err != nil {
@@ -51,11 +41,11 @@ func main() {
 	data, err2 := reader.ReadAll()
 	check(err2)
 
-	count := 0
 	for _, row := range data {
-		for _, col := range row {
-			fmt.Printf("%s\n", col)
+		name := row[0]
+		age := row[1]
+		mail := row[2]
+		fmt.Printf("%v %v %v\n", name, age, mail)
 
-		}
 	}
 }
