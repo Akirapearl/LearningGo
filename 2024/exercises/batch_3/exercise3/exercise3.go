@@ -18,7 +18,7 @@ Task: Write a program that reads environment variables and prints them.
 func main() {
 	fmt.Println("Batch 3 - Exercise 3")
 
-	var EnVar = [3]string{"HOME", "PATH", "USER"}
+	var EnVar = []string{"HOME", "PATH", "USER"}
 
 	for i := 0; i < len(EnVar); i++ {
 		fmt.Println(os.Getenv(EnVar[i]))
@@ -26,11 +26,21 @@ func main() {
 		fmt.Println("")
 	}
 	fmt.Println("Are this all your needed env Variables?[Y/n]")
-	if true {
+	var condition string
+	fmt.Scanln(&condition)
+	if condition == "yes" || condition == "Yes" || condition == "Y" || condition == "y" {
 		fmt.Println("Nice! See you next time")
 	} else {
 		// Ask for input
-		// Append into array OR create a new variable to print the desired Env Variable
-
+		fmt.Println("Missing any environment variable? Write it down!")
+		// Potential improvement point - Exctract this part so it can be called
+		// multiple times
+		var w1 string
+		fmt.Scanln(&w1)
+		// Append variable to array
+		EnVar = append(EnVar, w1)
+		last := EnVar[len(EnVar)-1]
+		//fmt.Println(last)
+		fmt.Println(os.Getenv(last))
 	}
 }
