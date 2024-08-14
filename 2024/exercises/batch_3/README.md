@@ -37,12 +37,3 @@ Task: Write a program that spawns multiple goroutines to print numbers concurren
     Each goroutine should read numbers from the channel and print them along with its id.
     Send a few numbers to the channel and close it.
     Use a sync.WaitGroup to ensure all goroutines complete before the program exits.
-
-Exercise 5: Simple Calculator
-
-Task: Write a simple calculator that performs basic arithmetic operations.
-
-    Create a function calculate that takes two float64 numbers and an operator (string) and returns the result.
-    In the main function, prompt the user to enter two numbers and an operator (+, -, *, /).
-    Call the calculate function with the user inputs and print the result.
-    Handle any errors (e.g., division by zero) gracefully.

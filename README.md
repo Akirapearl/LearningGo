@@ -47,6 +47,11 @@ Re-learning GO on the ongoing year (2024) as part of my 100 days of code [blog](
 	/ex1
 
 		* Quiz game
+	
+	/ex2
+		* Done separately at [Go-url-shortener repo](https://github.com/Akirapearl/Go-url-shortener/tree/main)
+
+		
 ---
 [MoureDev's video](https://youtu.be/AGiayASyp2Q?si=Yg_tUZano1KIp5ab)
 
