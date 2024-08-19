@@ -40,6 +40,8 @@ Re-learning GO on the ongoing year (2024) as part of my 100 days of code [blog](
 	5- /web_learning
 
 		* Oriented for web development
+		* Using Let's Go book by Alex Edwards and other resources
+		
 
 - gophercises
 
@@ -49,6 +51,7 @@ Re-learning GO on the ongoing year (2024) as part of my 100 days of code [blog](
 		* Quiz game
 	
 	/ex2
+	
 		* Done separately at [Go-url-shortener repo](https://github.com/Akirapearl/Go-url-shortener/tree/main)
 
 		
