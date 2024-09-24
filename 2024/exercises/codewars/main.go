@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"sort"
 	"strings"
 )
 
@@ -63,8 +64,29 @@ func BreakChocolate(n, m int) int {
 
 	return 0
 }
+
+func SortNumbers(numbers []int) []int {
+	/*
+		Finish the solution so that it sorts the passed in array of numbers.
+
+		If the function passes in an empty array or null/nil value then it should
+		return an empty array.
+
+		For example:
+
+		solution(c(1, 2, 3, 10, 5)) # should return c(1, 2, 3, 5, 10)
+		solution(NULL)              # should return NULL
+	*/
+
+	if numbers != nil {
+		sort.Ints(numbers)
+	}
+	return numbers
+}
+
 func main() {
 	fmt.Println(HoopCount(10))
 	fmt.Println(Initials("Hugh Jackman"))
 	fmt.Println(Initials("anna paquin"))
+	fmt.Println(SortNumbers([]int{1, 2, 10, 50, 5}))
 }

@@ -16,6 +16,7 @@ func home(w http.ResponseWriter, r *http.Request) {
 	// If error - log detailed error message - http.Error() - no subsequent code is executed
 	files := []string{
 		"./ui/html/base.tmpl.html",
+		"./ui/html/partials/nav.tmpl.html",
 		"./ui/html/pages/home.tmpl.html",
 	}
 
