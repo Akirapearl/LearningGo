@@ -22,7 +22,6 @@ Re-learning GO on the ongoing year (2024) as part of my 100 days of code [blog](
 		- Codewars proposed exercises
 		- JSON parser 
 		- Batch 1, Batch 2 & Batch 3 - General scoped basics, 5 exercises per batch
-		- Advent of Code
 
 	2- /hello_world
 
