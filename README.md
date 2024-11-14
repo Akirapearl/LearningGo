@@ -45,7 +45,7 @@ Re-learning GO on the ongoing year (2024) as part of my 100 days of code [blog](
 		* Oriented for more complex Go concepts learning as Go routines or generics.
 - gophercises
 
-		* Exercises made during 2024, from [gophercises site](https://gophercises.com/)
+		* From [gophercises site](https://gophercises.com/)
 	/ex1
 
 		* Quiz game
